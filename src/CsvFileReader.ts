@@ -2,7 +2,6 @@ import fs from 'fs';
 
 export abstract class CsvFileReader<T> {
   abstract data: T[];
-  abstract finename: string;
 
   constructor(public filename: string) {}
 
